@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600;700&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR styling/typesetting CSS code BELOW HERE */
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.03rem;
+  word-spacing: 0.1rem;
+}
+
+h1, h2, h3 {
+  font-family: "Roboto Mono", monospace;
+  letter-spacing: 0.1rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* heading sizes */
+h1 {
+  font-size: 3.6rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+p {
+  font-size: 1.6rem;
+  margin: 1.6rem 0;
+}
+
+section h2 + p {
+  text-indent: 1.25rem;
+}
+
+/* ---------------------------------------------------------
+   Links
+--------------------------------------------------------- */
+
+a {
+  color: #933;
+  text-decoration: underline;
+  outline: none;
+}
+
+a:visited {
+  color: #644;
+}
+
+a:hover,
+a:focus {
+  color: #a66;
+  text-decoration: none;
+}
+
+a:active {
+  background: #f5e6e6;
+  color: #600;
+  padding: 0 0.2rem;
+  border-radius: 3px;
+}
+
+/* external link icon */
+a[href^="http"]:after {
+  content: url("external-link-52.png");
+  display: inline-block;
+  margin-left: 0.3rem;
+  position: relative;
+  top: 0.1rem;
+  width: 12px;
+  height: 12px;
+}
+
+/* list */
+
+ul, ol {
+  margin: 1.6rem 0;
+  padding-left: 2.4rem;
+}
+
+li {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  margin: 0.4rem 0;
+}
+
+ul li {
+  list-style-type: square;
+  color: #933;
+}
+
+/* nav */
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-bottom: 2rem;
+}
+
+nav a {
+  display: block;
+  padding: 1.6rem;
+  font-size: 1.8rem;
+  text-align: center;
+  border: 3px solid #a66;
+  border-radius: 6px;
+  background: #fff;
+  color: #933;
+  text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus {
+  background: #f7eaea;
+}
+
+nav a:active {
+  background: #e8d3d3;
+  transform: scale(0.98);
+}
+
+/* footer */
+
+aside h2 {
+  margin-top: 0;
+}
+
+footer p {
+  text-align: center;
+  font-size: 1.4rem;
+}
